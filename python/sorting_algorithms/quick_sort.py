@@ -23,7 +23,8 @@ def quick_sort(arr, start, end):
         quick_sort(arr, pivot_index + 1, end)
     return arr
 
-arr1 = [4, 8, 2, 1, 5, 7, 6, 3]
+#arr1 = [4, 8, 2, 1, 5, 7, 6, 3]
+arr1 = [4, -8, 2, 1, 0.5, 7, 6, 3, 0.49]
 #print(partition(arr1, 0, len(arr1) - 1))
 print(quick_sort(arr1, 0, len(arr1) - 1))
 

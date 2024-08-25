@@ -17,4 +17,4 @@ def quick_sort(arr):
     return quick_sort(lesser) + mid + quick_sort(bigger)
 
 
-print(quick_sort([-12, 19, 53, -4, 78, 34, 67, 53, 32]))
+print(quick_sort([-2, 14, 4, 29, -5, 10, 1]))

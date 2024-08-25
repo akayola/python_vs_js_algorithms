@@ -5,7 +5,7 @@
 //function pivot(arr, start=0, end=arr.length + 1) {
 function pivot(arr, start, end) {
     let pivot = arr[start];
-    let swapIndx = start;
+    let swapIndex = start;
 
     const swap = (arr, indx1, indx2) => {
         [arr[indx1],arr[indx2]] = [arr[indx2],arr[indx1]];
@@ -13,15 +13,15 @@ function pivot(arr, start, end) {
     // Compare pivot to each element
     for (let i = start + 1; i < arr.length; i++) {
         if (pivot > arr[i]) {
-            swapIndx++;
-            swap(arr, swapIndx, i);
+            swapIndex++;
+            swap(arr, swapIndex, i);
             //console.log(arr);
         }
     }
     //Swap pivot with element with swapIndex
-    swap(arr, start, swapIndx);
+    swap(arr, start, swapIndex);
     //console.log(arr, pivot);
-    return swapIndx;
+    return swapIndex;
 }
 
 //console.log(pivot([4, 8, 2, 1, 5, 7, 6, 3]));

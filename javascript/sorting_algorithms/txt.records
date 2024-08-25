@@ -1,0 +1,32 @@
+
+; <<>> DiG 9.10.6 <<>> TXT instinet.com.
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26338
+;; flags: qr rd ra; QUERY: 1, ANSWER: 13, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;instinet.com.			IN	TXT
+
+;; ANSWER SECTION:
+instinet.com.		60	IN	TXT	"docker-verification=22d33deb-515c-4994-a465-fd94fefb80cf"
+instinet.com.		60	IN	TXT	"atlassian-domain-verification=AwRdFaE4GX9BmDRTXrnmx72fYIQ347a5oOrp92PK7FIaGh15ErbfYoa6AEybp/HQ"
+instinet.com.		60	IN	TXT	"duo_sso_verification=WqTO9SCWTGztnGQmsctQI5ETd3SXPFA4TAldxZJr5IF2D4EjKsvZcZWT7qaACFCx"
+instinet.com.		60	IN	TXT	"duo_sso_verification=KtVGJjyieIsUVxi9q7TjqVkyQKxGiJZuKj7nrKY6OjdvkiRbXXD2Y18lR1g2g42N"
+instinet.com.		60	IN	TXT	"ZOOM_verify_p6T1YMy7TI-zQt2bDwe2ZA"
+instinet.com.		60	IN	TXT	"MS=B041AD112BE9E8B2B964D54CD443CA6EA467920D"
+instinet.com.		60	IN	TXT	"_acme-challenge.instinet.com."
+instinet.com.		60	IN	TXT	"cisco-ci-domain-verification=1950bc98b843cca0055be9e719c48d18538d92f75ed1caf71c760d8ab0664f08"
+instinet.com.		60	IN	TXT	"v=spf1 ip4:67.231.149.223 ip4:67.231.157.218 include:spf_c.oraclecloud.com include:spf-0037a801.pphosted.com include:aspmx.pardot.com include:_spf.instinet.com include:u19855534.wl035.sendgrid.net ~all"
+instinet.com.		60	IN	TXT	"1VM4M1Ulr7FJiF_YDWz9VlhZc-A21_eMVJBEwK7CVq0"
+instinet.com.		60	IN	TXT	"v=msv1 t=429cb8727ebb4e914a3889b80ae0ec"
+instinet.com.		60	IN	TXT	"adobe-idp-site-verification=7586037c5e9b1be25325b19b9db5e788c9cf54221b129b6d65a0a2e796110355"
+instinet.com.		60	IN	TXT	"pardot865932=35c5185bed3a2881e312b67a999b84ad2ca54b2f9a97ed8b2bdf610eab6a42ab"
+
+;; Query time: 17 msec
+;; SERVER: 2620:0:50a0:2004::129#53(2620:0:50a0:2004::129)
+;; WHEN: Fri May 17 20:38:57 EDT 2024
+;; MSG SIZE  rcvd: 1181
+
